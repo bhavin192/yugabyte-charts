@@ -290,7 +290,7 @@ spec:
           - "--fs_data_dirs={{ template "yugabyte.fs_data_dirs" $storageInfo }}"
           - "--server_broadcast_addresses={{ printf "$(HOSTNAME).%s.$(NAMESPACE).svc.%s" .name $root.Values.domainName }}:9100"
           - "--rpc_bind_addresses=0.0.0.0:9100" # {{ printf "$(HOSTNAME).%s.$(NAMESPACE).svc.%s" .name $root.Values.domainName }},127.0.0.1"
-          - "--cql_proxy_bind_address={{ printf "$(HOSTNAME).%s.$(NAMESPACE).svc.%s" .name $root.Values.domainName }}"
+          - "--cql_proxy_bind_address=0.0.0.0:9042" # {{ printf "$(HOSTNAME).%s.$(NAMESPACE).svc.%s" .name $root.Values.domainName }}"
           {{ if not $root.Values.disableYsql }}
           - "--enable_ysql=true"
           - "--pgsql_proxy_bind_address=0.0.0.0:5433"
