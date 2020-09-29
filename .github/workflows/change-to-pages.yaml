@@ -1,0 +1,33 @@
+name: "Update pages"
+on:
+  push:
+    branches:
+    - repo-main
+jobs:
+  update-page:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: "Configure git"
+      run: |
+        git config user.name 'YugaByte CI'
+        git config user.email 'yugabyte-ci@users.noreply.github.com'
+    - name: "Change the content"
+      id: change
+      continue-on-error: true
+      run: |
+        echo "Test run ${{ github.run_id }}" >> docs/README.md
+    - name: "Push the changes"
+      if: steps.change.outcome == 'success'
+      run: |
+        git status
+        git diff
+        git add docs/README.md
+        git commit -m "Add content to README.md - ${{ github.run_id }}"
+        git push origin ${{ github.ref }}
+    - name: "Show git status in case of failure"
+      if: steps.change.outcome == 'failure'
+      run: |
+        git status
+        git diff
+        exit 1
