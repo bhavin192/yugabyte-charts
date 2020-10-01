@@ -3,7 +3,7 @@ entries:
   yugabyte:
   - apiVersion: v1
     appVersion: 2.3.1.6-b99
-    created: "2020-10-01T09:58:32.48299154Z"
+    created: "2020-10-01T10:29:11.136973422Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 40dc4e33193ac33cfa766fb25535eb85c816873d24db9d614a6f659f1fedfaa8
@@ -22,7 +22,7 @@ entries:
     version: 2.3.1
   - apiVersion: v1
     appVersion: 2.3.0.0-b176
-    created: "2020-10-01T09:58:32.481487561Z"
+    created: "2020-10-01T10:29:11.135628619Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 678f2346c0c7fd73e69589a75d3f7d8c955fdf4dae4cf8d0ff6135debd326a98
@@ -40,11 +40,11 @@ entries:
     - https://bhavin192.github.io/yugabyte-charts/yugabyte-2.3.0.tgz
     version: 2.3.0
   - apiVersion: v1
-    appVersion: 2.2.4.0-b99
-    created: "2020-10-01T09:58:32.479826474Z"
+    appVersion: 2.2.4.5-b99
+    created: "2020-10-01T10:29:11.134092916Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
-    digest: c75f8ebec4fca409db929afab59562c077b6b4e0acf06aff2efa2847a9a3f932
+    digest: 51af8f4c6f04da39f23bfb903275c5811ac711bcb87e49ef34d9a035a3d24229
     home: https://www.yugabyte.com
     icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
     maintainers:
@@ -60,7 +60,7 @@ entries:
     version: 2.2.4
   - apiVersion: v1
     appVersion: 2.2.2.0-b15
-    created: "2020-10-01T09:58:32.477950175Z"
+    created: "2020-10-01T10:29:11.13111501Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 0981349d7d387ef6c732f2998b1cc5b66a9c41efc6f306b318ae6659f7252f3b
@@ -79,7 +79,7 @@ entries:
     version: 2.2.2
   - apiVersion: v1
     appVersion: 2.2.0.0-b80
-    created: "2020-10-01T09:58:32.476320589Z"
+    created: "2020-10-01T10:29:11.129952808Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 799c7e862eb96f7bb881891193465b1cd9138f66ed2546e88e7081eb7e53d7dd
@@ -98,7 +98,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 2.1.10.0-b3
-    created: "2020-10-01T09:58:32.47063729Z"
+    created: "2020-10-01T10:29:11.125433399Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: e50c09bbfa2df8d853a892dbf1e9cf90713389b35e76bcc1908fbd5cc646debd
@@ -117,7 +117,7 @@ entries:
     version: 2.1.10
   - apiVersion: v1
     appVersion: 2.1.8.2-b1
-    created: "2020-10-01T09:58:32.475218131Z"
+    created: "2020-10-01T10:29:11.129069606Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 216a6dd2d0dcc304e16ccf98fd976544db2af26fe857870ae78785f70a057a43
@@ -136,7 +136,7 @@ entries:
     version: 2.1.8
   - apiVersion: v1
     appVersion: 2.1.6.0-b17
-    created: "2020-10-01T09:58:32.474116673Z"
+    created: "2020-10-01T10:29:11.128175004Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: cc7a6152a92f26c5df32bb8dd4bca2e6175c07e5b14b5e0d918631c073b30ceb
@@ -155,7 +155,7 @@ entries:
     version: 2.1.6
   - apiVersion: v1
     appVersion: 2.1.5.0-b17
-    created: "2020-10-01T09:58:32.472939911Z"
+    created: "2020-10-01T10:29:11.127289003Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 003acff5f971c880b31d28d3f46fc8aaaddb964b41ed0bbfa7055e9ec1901e41
@@ -174,7 +174,7 @@ entries:
     version: 2.1.5
   - apiVersion: v1
     appVersion: 2.1.4.0-b5
-    created: "2020-10-01T09:58:32.471801252Z"
+    created: "2020-10-01T10:29:11.126332001Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: bc85f9abfbec25fc5d874c477d94c4795af1ee82e765794108ba7a872d22e924
@@ -193,7 +193,7 @@ entries:
     version: 2.1.4
   - apiVersion: v1
     appVersion: 2.1.0.0-b18
-    created: "2020-10-01T09:58:32.469144212Z"
+    created: "2020-10-01T10:29:11.124310297Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: 76a3d640b58d3bedf63f9b2a0298c5c2bade058f423f78110196b00fb35e8288
@@ -212,7 +212,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 2.0.12.0-b10
-    created: "2020-10-01T09:58:32.461486609Z"
+    created: "2020-10-01T10:29:11.117563383Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
       global, internet-scale apps.
     digest: e8eb61f776d31183c2963c96859087c6694fdbdbd296d773aeb24dbff5059050
@@ -231,7 +231,7 @@ entries:
     version: 2.0.12
   - apiVersion: v1
     appVersion: 2.0.11.0-b23
-    created: "2020-10-01T09:58:32.46036065Z"
+    created: "2020-10-01T10:29:11.116503281Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: c371768d38d218c829104d3d4f5dd3a68b976ec0b0ce1f82d11e6c347fd3a79f
@@ -250,7 +250,7 @@ entries:
     version: 2.0.11
   - apiVersion: v1
     appVersion: 2.0.9.0-b13
-    created: "2020-10-01T09:58:32.468039754Z"
+    created: "2020-10-01T10:29:11.123382495Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: 88677decdb52e62fc76e6e6309ec2fb31dbfb6c57c4294fdb88c97d94e77dfaf
@@ -269,7 +269,7 @@ entries:
     version: 2.0.9
   - apiVersion: v1
     appVersion: 2.0.5.2-b3
-    created: "2020-10-01T09:58:32.465935943Z"
+    created: "2020-10-01T10:29:11.122218193Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: b03f2e244de2b550bc65871b4921aa8b4b9e3b0653062f52396e81b274d4b51d
@@ -288,7 +288,7 @@ entries:
     version: 2.0.5
   - apiVersion: v1
     appVersion: 2.0.4.0-b7
-    created: "2020-10-01T09:58:32.464183651Z"
+    created: "2020-10-01T10:29:11.120277789Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: ed665560cb887923167b3fccf31d2d5616e08cf0812a2889929ad8a87c5d11c3
@@ -307,7 +307,7 @@ entries:
     version: 2.0.4
   - apiVersion: v1
     appVersion: 2.0.2.0-b10
-    created: "2020-10-01T09:58:32.463112094Z"
+    created: "2020-10-01T10:29:11.118541285Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: a47934e46e251cdd29d3235ccb2cb2678977c97c1cdaad8a38139c28a64d2094
@@ -326,7 +326,7 @@ entries:
     version: 2.0.2
   - apiVersion: v1
     appVersion: 2.0.1.0-b19
-    created: "2020-10-01T09:58:32.459191088Z"
+    created: "2020-10-01T10:29:11.115244379Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: c00ab55e86714a02c0ab27ef6b59fcfda28784062ac1c231e6399d95635b6e55
@@ -345,7 +345,7 @@ entries:
     version: 2.0.1
   - apiVersion: v1
     appVersion: 2.0.0.0-b16
-    created: "2020-10-01T09:58:32.458024827Z"
+    created: "2020-10-01T10:29:11.114336277Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: 9057670987cba365f5b886f7bad7c7dcffb7fbd2a3efb58406b0a500b31caa65
@@ -364,7 +364,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.3.0.0-b1
-    created: "2020-10-01T09:58:32.456802662Z"
+    created: "2020-10-01T10:29:11.113319775Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: 2c18f354868c217b880391ba6faa258ec24cb6b31fd3cbdf09e5c866457bd85a
@@ -383,7 +383,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.10.0-b13
-    created: "2020-10-01T09:58:32.454507342Z"
+    created: "2020-10-01T10:29:11.111366971Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: 23bea12191593fddd6dee9dbc14357617ef91ec93df968401878d23eda4e48ea
@@ -401,7 +401,7 @@ entries:
     - https://bhavin192.github.io/yugabyte-charts/yugabyte-1.2.10.tgz
     version: 1.2.10
   - apiVersion: v1
-    created: "2020-10-01T09:58:32.455631001Z"
+    created: "2020-10-01T10:29:11.112384673Z"
     description: YugaByte Database is the high-performance distributed SQL database
       for building global, internet-scale applications
     digest: cd03029a99e40c8044303da193cb9ff0c2a4c3a7328e8f091b15ca437fc7cc67
@@ -421,7 +421,7 @@ entries:
   yugaware:
   - apiVersion: v1
     appVersion: 2.3.1.6-b99
-    created: "2020-10-01T09:58:32.500163044Z"
+    created: "2020-10-01T10:29:11.154117956Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: c011516a87f3825f83370a3d096cdd1c292734534f006b5bc96cedd1ae1c16d6
     home: https://www.yugabyte.com
@@ -437,7 +437,7 @@ entries:
     version: 2.3.1
   - apiVersion: v1
     appVersion: 2.3.0.0-b176
-    created: "2020-10-01T09:58:32.499169292Z"
+    created: "2020-10-01T10:29:11.153286655Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 5fba263531f3cf056d23bca01da86ff1166358eeeb9193a7a275e71ac1e38948
     home: https://www.yugabyte.com
@@ -452,10 +452,10 @@ entries:
     - https://bhavin192.github.io/yugabyte-charts/yugaware-2.3.0.tgz
     version: 2.3.0
   - apiVersion: v1
-    appVersion: 2.2.4.0-b99
-    created: "2020-10-01T09:58:32.498325547Z"
+    appVersion: 2.2.4.5-b99
+    created: "2020-10-01T10:29:11.152294953Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
-    digest: 9e1744f4fa6bc6fce228f3d25c2f0761f33a4c7b7ec995f55188b48c3ad1b57a
+    digest: 2edbe08dc2e1d5ac128fc37607a0696c84870d967ea6bc3b7961486ec6d0ac56
     home: https://www.yugabyte.com
     icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
     maintainers:
@@ -469,7 +469,7 @@ entries:
     version: 2.2.4
   - apiVersion: v1
     appVersion: 2.2.2.0-b15
-    created: "2020-10-01T09:58:32.497331095Z"
+    created: "2020-10-01T10:29:11.151353451Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 7320e4888279b82a4f98efb7dbe27a06dbb0a1ddb9cd7cbc31872fbacbd5912f
     home: https://www.yugabyte.com
@@ -485,7 +485,7 @@ entries:
     version: 2.2.2
   - apiVersion: v1
     appVersion: 2.2.0.0-b80
-    created: "2020-10-01T09:58:32.496387645Z"
+    created: "2020-10-01T10:29:11.150442849Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: b082755bb56f0a4873738fe8876867e387a8d8834ecc02b33b34f15b6704ed03
     home: https://www.yugabyte.com
@@ -501,7 +501,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 2.1.10.0-b3
-    created: "2020-10-01T09:58:32.491492788Z"
+    created: "2020-10-01T10:29:11.145441539Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 0fa8739db6fc2e4e36d11918c7056218aedd9f6bde05663767b4ad96f1c7ac5b
     home: https://www.yugabyte.com
@@ -517,7 +517,7 @@ entries:
     version: 2.1.10
   - apiVersion: v1
     appVersion: 2.1.8.2-b1
-    created: "2020-10-01T09:58:32.495620305Z"
+    created: "2020-10-01T10:29:11.149409947Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 3078f102f39fb9b9d3e7bf736d759aeed6853d095fd3e5ace6038b638609e368
     home: https://www.yugabyte.com
@@ -533,7 +533,7 @@ entries:
     version: 2.1.8
   - apiVersion: v1
     appVersion: 2.1.6.0-b17
-    created: "2020-10-01T09:58:32.494894567Z"
+    created: "2020-10-01T10:29:11.148564745Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: f44a96ddab830cdfa058c5c66084242bbf71c19b24dc2c367f36d0045787724f
     home: https://www.yugabyte.com
@@ -549,7 +549,7 @@ entries:
     version: 2.1.6
   - apiVersion: v1
     appVersion: 2.1.5.0-b17
-    created: "2020-10-01T09:58:32.494052722Z"
+    created: "2020-10-01T10:29:11.147639643Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: e6c2bc2ca9302b006c98682dccc47f0b843543ac76c4f8ec17d6797b25790e90
     home: https://www.yugabyte.com
@@ -565,7 +565,7 @@ entries:
     version: 2.1.5
   - apiVersion: v1
     appVersion: 2.1.4.0-b5
-    created: "2020-10-01T09:58:32.492612447Z"
+    created: "2020-10-01T10:29:11.146573941Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 61c6ae508de5c63708909411f8c0a9f7e825bda90bf17e98901acacb222073fb
     home: https://www.yugabyte.com
@@ -581,7 +581,7 @@ entries:
     version: 2.1.4
   - apiVersion: v1
     appVersion: 2.1.0.0-b18
-    created: "2020-10-01T09:58:32.489998509Z"
+    created: "2020-10-01T10:29:11.144318237Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 812ffa307979ee448834068fbf008d604746e998e359283b6e732c57ea7227fe
     home: https://www.yugabyte.com
@@ -597,7 +597,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 2.0.12.0-b10
-    created: "2020-10-01T09:58:32.487254765Z"
+    created: "2020-10-01T10:29:11.141170631Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 8d2ad0a681f42d2c20aeed25da750560894c5c2f17e5e891f46b3d61a3ed818e
     home: https://www.yugabyte.com
@@ -613,7 +613,7 @@ entries:
     version: 2.0.12
   - apiVersion: v1
     appVersion: 2.0.11.0-b23
-    created: "2020-10-01T09:58:32.486233311Z"
+    created: "2020-10-01T10:29:11.140314729Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 637a6f76d1402d9472a8238bf1bd94bafe937943f963ce6f11560b83dbb98d02
     home: https://www.yugabyte.com
@@ -627,7 +627,7 @@ entries:
     version: 2.0.11
   - apiVersion: v1
     appVersion: 2.0.9.0-b13
-    created: "2020-10-01T09:58:32.488956154Z"
+    created: "2020-10-01T10:29:11.142878034Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 5199820c54d817af1ff7bb01545771a5e109faecbfb931ac11ee51ec3c14afaa
     home: https://www.yugabyte.com
@@ -641,7 +641,7 @@ entries:
     version: 2.0.9
   - apiVersion: v1
     appVersion: 2.0.5.2-b3
-    created: "2020-10-01T09:58:32.488443227Z"
+    created: "2020-10-01T10:29:11.142459933Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 3cdea12eda07b8a7fb546cdcaa17d511304d1631c5d9efacaacb5d5467867988
     home: https://www.yugabyte.com
@@ -655,7 +655,7 @@ entries:
     version: 2.0.5
   - apiVersion: v1
     appVersion: 2.0.4.0-b7
-    created: "2020-10-01T09:58:32.488063807Z"
+    created: "2020-10-01T10:29:11.142042632Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: b8f42e6fea94160a763a928572c82a60accd2b74c8389ffe4c4ca57d830aca15
     home: https://www.yugabyte.com
@@ -669,7 +669,7 @@ entries:
     version: 2.0.4
   - apiVersion: v1
     appVersion: 2.0.2.0-b10
-    created: "2020-10-01T09:58:32.487684887Z"
+    created: "2020-10-01T10:29:11.141627131Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: b6357b1b7e16bae49fe71863356dffae7f8bddece025aa3e493cd5a1fc1e901a
     home: https://www.yugabyte.com
@@ -683,7 +683,7 @@ entries:
     version: 2.0.2
   - apiVersion: v1
     appVersion: 2.0.1.0-b19
-    created: "2020-10-01T09:58:32.485732485Z"
+    created: "2020-10-01T10:29:11.139801228Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: c82dc605119d32f1ab6dad0f258a066d1b41df56856144590525023f877c8a34
     home: https://www.yugabyte.com
@@ -697,7 +697,7 @@ entries:
     version: 2.0.1
   - apiVersion: v1
     appVersion: 2.0.0.0-b16
-    created: "2020-10-01T09:58:32.485211957Z"
+    created: "2020-10-01T10:29:11.139215627Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: 48c830e0d3b39b42dadf904e178a9a60d335059d30270e3f9bfb87eee86aa780
     home: https://www.yugabyte.com
@@ -711,7 +711,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 1.3.2.0-b18
-    created: "2020-10-01T09:58:32.484857939Z"
+    created: "2020-10-01T10:29:11.138798826Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: ffa2921a2a5a49792c93d79380b074cb3496d7341218a1ce533c7d2bfe5fe94f
     home: https://www.yugabyte.com
@@ -725,7 +725,7 @@ entries:
     version: 1.3.2
   - apiVersion: v1
     appVersion: 1.3.0.0-b1
-    created: "2020-10-01T09:58:32.484355412Z"
+    created: "2020-10-01T10:29:11.138368025Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: a53cb78438849a9ff63fcfaf8c97d348ca50d9eb69525047a05a2f9fc76cc7df
     home: https://www.yugabyte.com
@@ -739,7 +739,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.9.0-b14
-    created: "2020-10-01T09:58:32.483899888Z"
+    created: "2020-10-01T10:29:11.137953624Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: b5ae7dad6f4a8c33cb6648116882401aa339d36b24cb7beef7f30b80e20ae9fb
     home: https://www.yugabyte.com
@@ -753,7 +753,7 @@ entries:
     version: 1.2.9
   - apiVersion: v1
     appVersion: 1.2.8.0-b1
-    created: "2020-10-01T09:58:32.483445364Z"
+    created: "2020-10-01T10:29:11.137524323Z"
     description: YugaWare is YugaByte Database's Orchestration and Management console.
     digest: d1bcb6d37afec1b4eaebe4766430e6689f5704c9faa8e9e19122fb95b5f3a29e
     home: https://www.yugabyte.com
@@ -765,4 +765,4 @@ entries:
     urls:
     - https://bhavin192.github.io/yugabyte-charts/yugaware-1.2.8.tgz
     version: 1.2.8
-generated: "2020-10-01T09:58:32.453054565Z"
+generated: "2020-10-01T10:29:11.109861168Z"
