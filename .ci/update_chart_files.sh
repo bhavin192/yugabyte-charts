@@ -49,7 +49,9 @@ info "update_chart_files: updating the files in '${path_prefix}' from \
 '${current_version%-b*}' to '${release_version}'"
 
 # find container image tag respective to YugabyteDB release version
-container_image_tag="$(python3 ".ci/find_container_image_tag.py" "-r" "${release_version}")"
+# TODO: restore this to use the Python script
+container_image_tag="${release_version}-b99"
+# container_image_tag="$(python3 ".ci/find_container_image_tag.py" "-r" "${release_version}")"
 info "update_chart_files: latest container image tag for \
 '${release_version}': '${container_image_tag}'"
 
