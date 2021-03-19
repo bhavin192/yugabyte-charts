@@ -267,7 +267,13 @@ spec:
           {{- end }}
           {{- end }}
           {{- if $root.Values.oldNamingStyle }}
+          {{- if $.Values.linkerd.enabled }}
+          - "--server_broadcast_addresses={{ printf "$(HOSTNAME)-%s.$(NAMESPACE).svc.%s" $.Values.linkerd.clusterIdentifier $root.Values.domainName }}:7100"
+          # forces to use above address
+          - "--use_private_ip=never"
+          {{- else }}
           - "--server_broadcast_addresses={{ printf "$(HOSTNAME).%s.$(NAMESPACE).svc.%s" .name $root.Values.domainName }}:7100"
+          {{- end }}
           {{- else }}
           - "--server_broadcast_addresses={{ printf "$(HOSTNAME).%s-%s.$(NAMESPACE).svc.%s" (include "yugabyte.fullname" $root) .name $root.Values.domainName }}:7100"
           {{- end }}

@@ -200,3 +200,7 @@ authCredentials:
     keyspace: ""
 
 oldNamingStyle: true
+
+# linkerd:
+#   enabled: true
+#   clusterIdentifier: east
