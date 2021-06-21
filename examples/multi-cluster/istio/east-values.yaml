@@ -1,0 +1,31 @@
+# Image:
+#   tag: 2.7.0.0-b17
+
+istioCompatibility:
+  enabled: true
+
+multicluster:
+  createServicePerPod: true
+  createCommonTserverService: true
+
+isMultiAz: true
+
+masterAddresses: "{east-yugabyte-yb-master-0.ybdb.svc.cluster.local,east-yugabyte-yb-master-0.east-yugabyte-yb-masters.ybdb.svc.cluster.local},{west-yugabyte-yb-master-0.ybdb.svc.cluster.local},{central-yugabyte-yb-master-0.ybdb.svc.cluster.local}"
+
+replicas:
+  totalMasters: 3
+  master: 1
+  tserver: 2
+
+gflags:
+  master:
+    placement_region: us-east1
+    placement_cloud: gcp
+  tserver:
+    placement_region: us-east1
+    placement_cloud: gcp
+
+oldNamingStyle: false
+
+preflight:
+  skipBind: true
